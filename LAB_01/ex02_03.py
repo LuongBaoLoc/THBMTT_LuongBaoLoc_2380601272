@@ -1,10 +1,5 @@
-"""
-Bài tập ex02_03
-"""
-
-def solve():
-	print("ex02_03: Hello from exercise 3")
-
-
-if __name__ == "__main__":
-	solve()
+so = int(input("nhập một số nguyên: "))
+if so % 2 == 0:
+    print(so, "là số chẵn")
+else:
+    print(so, "là số lẻ")

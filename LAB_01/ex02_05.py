@@ -1,10 +1,6 @@
-"""
-Bài tập ex02_05
-"""
-
-def solve():
-    print("ex02_05: Hello from exercise 5")
-
-
-if __name__ == "__main__":
-    solve()
+so_gio_lam = float(input("Nhập số giờ làm: "))
+luong_gio = float(input("Nhập thù lao trên mỗi giờ làm tiêu chuẩn: "))
+gio_tieu_chuan = 44
+gio_vuot_chuan = max(0, so_gio_lam - gio_tieu_chuan)
+thuc_linh = (gio_tieu_chuan * luong_gio) + (gio_vuot_chuan * luong_gio * 1.5)
+print("Thù lao thực lĩnh là:", thuc_linh)

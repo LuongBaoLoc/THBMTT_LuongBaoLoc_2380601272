@@ -1,10 +1,4 @@
-"""
-Bài tập ex02_10
-"""
-
-def solve():
-    print("ex02_10: Hello from exercise 10")
-
-
-if __name__ == "__main__":
-    solve()
+def dao_nguoc_chuoi(s):
+    return s[::-1]
+input_string = input("Nhập chuỗi cần đảo ngược: ")
+print("Chuỗi sau khi đảo ngược là:", dao_nguoc_chuoi(input_string))

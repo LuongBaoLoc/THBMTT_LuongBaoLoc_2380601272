@@ -1,10 +1,10 @@
-"""
-Bài tập ex02_07
-"""
-
-def solve():
-    print("ex02_07: Hello from exercise 7")
-
-
-if __name__ == "__main__":
-    solve()
+print("Nhập các dòng văn bản (Nhập 'END' để kết thúc):")
+lines = []
+while True:
+    line = input()
+    if line == "END":
+        break
+    lines.append(line)
+print("\n Các dòng đã nhập sau khi chuyển thành chữ hoa: ")
+for line in lines:
+    print(line.upper())
